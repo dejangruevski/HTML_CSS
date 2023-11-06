@@ -1,0 +1,17 @@
+.title {
+    padding: 20px 20px;
+    margin-left: 20px;
+    display: inline;
+}
+
+header {
+    background-color: rgb(184, 140, 123);
+}
+
+
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+}

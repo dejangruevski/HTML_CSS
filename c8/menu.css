@@ -1,0 +1,60 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    margin-left: 20px;
+}
+
+.navigation ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    list-style: none;
+}
+
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+.navigation ul li .sub-menu {
+    position: absolute;
+    background-color: brown;
+    display: unset;
+    top: 48px;
+    left: 0px;
+    width: 200px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease-in-out;
+}
+
+.navigation ul li {
+    position: relative;
+}
+
+.navigation ul li .sub-menu li {
+    border-bottom: 1px solid white;
+}
+
+.navigation ul li:hover .sub-menu {
+    opacity: 1;
+    visibility: visible;
+}
+/* .sub-menu {
+    position: absolute;
+    background-color: brown;
+    display: unset !important;
+} */

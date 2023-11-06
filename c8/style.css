@@ -1,0 +1,57 @@
+.body {
+    overflow: hidden;
+}
+
+
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 124px);
+    width: 70vw;
+    gap: 20px;
+    margin: 100px auto;
+    justify-content: center;
+}
+
+.item {
+    border: 2px solid rgb(61, 104, 245);
+    background-color: rgb(190, 81, 81);
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.item-2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.item-5 {
+    position: relative;
+    top: 100px;
+}
+.item-6 {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.item-4 {
+    position: sticky;
+    top: 0;
+}
+
+/* .text-holder {
+    background-color: aquamarine;
+    width: 300px;
+    height: 200px;
+    overflow: auto;
+} */

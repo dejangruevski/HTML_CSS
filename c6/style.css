@@ -1,0 +1,42 @@
+body {
+    /* background-image: url(./oriental-tiles.png);  
+    background-repeat: repeat;
+    background-position: 50px;*/ 
+}
+
+.parent {
+    width: 70%;
+    height: 1000px;
+    margin: 0px auto;
+    border: 10px solid black;
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* align-content: flex-start; */
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+    border: 3px solid blue;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+.box-1 {
+    flex-shrink: 1;
+}
+
+.box-2 {
+    flex-grow: 1;
+}
+
+.box-3 {
+    /* flex-basis: 500px; */
+    flex: 0 0 400px;
+}
+

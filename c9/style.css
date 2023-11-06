@@ -1,0 +1,52 @@
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'ubunturegular';
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.text {
+    width: 400px;
+    font-weight: 300;
+    text-transform: lowercase;
+    font-style: oblique;
+    /* line-height: 30px;
+    letter-spacing: 10px; */
+}
+
+/* @media (max-width: 900px) {
+    body {
+        background-color: brown;
+    }
+}
+
+@media (min-width: 1250px) {
+    body {
+        background-color: rgb(43, 90, 219);
+    }
+} */
+
+.responsive {
+    text-align: center;
+    font-size: 40px;
+
+}
+@media (max-width: 1024px) {
+    .responsive {
+        font-size: 26px;
+    }
+} 
+@media (max-width: 600px) {
+    .responsive {
+        font-size: 16px;
+    }
+} 
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    body {
+        background-color: green;
+    }
+} 

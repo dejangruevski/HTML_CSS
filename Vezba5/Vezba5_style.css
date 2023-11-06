@@ -1,0 +1,80 @@
+body {
+   font-family: sans-serif;
+   width: 700px;
+   margin: 0px auto;
+}
+header {
+   display: flex;
+   height: 80px;
+   justify-content: space-between;
+}
+.menu {
+   padding-top: 20px;
+   height: 40px;
+}
+/* DJ Container */
+main {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+.DJ {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+.circle {
+   background-color: red;
+   border-radius: 50%;
+   height: 50px;
+   width: 50px;
+}
+p {
+   color:red
+}
+a {
+   color: black;
+}
+/*Latest Events*/
+.latest_events {
+   display: flex;
+   flex-direction: column;
+   width: 600px;
+   background-color: rgb(66, 64, 64);
+   color: whitesmoke;
+   padding: 40px;
+   gap: 30px;
+}
+.latest_events h2 {
+   font-weight: lighter;
+   font-size: 200%;
+}
+.event {
+   display: flex;
+   flex-direction: row;
+   font-size: 150%;
+   gap: 30px; 
+}
+.event img {
+   width: 150px;
+}
+.text_info {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+button {
+   width: 100px;
+   height: 40px;
+   border-color: white;
+   border-radius: 20px;
+   background-color:rgb(66, 64, 64);
+   color: white;
+   font-size: 15px;
+   padding: 10px;
+}
+
+
